@@ -1,0 +1,19 @@
+<div class="container">
+
+        <div class="select-box">
+            <div class="options-container">
+                <a href="">
+                    <div class="option">
+                        <label for=""></label>
+                    </div>
+                </a>
+                
+            </div>
+
+
+            <div class="selected">
+                Select a  City
+            </div>
+        </div>
+
+</div>

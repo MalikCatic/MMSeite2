@@ -1,0 +1,124 @@
+{
+    "products": [
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "https:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic1.png",
+            "category": "featured"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic2.png",
+            "category": "trend"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic3.png",
+            "category": "featured"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic4.png",
+            "category": "trend"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic5.png",
+            "category": "featured"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic6.png",
+            "category": "recent"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic8.png",
+            "category": "trend"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic7.png",
+            "category": "featured"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic8.png",
+            "category": "recent"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic1.png",
+            "category": "trend"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic9.png",
+            "category": "special"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic10.png",
+            "category": "special"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic11.png",
+            "category": "special"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop0/pic12.png",
+            "category": "recent"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic7.png",
+            "category": "special"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic13.png",
+            "category": "latest"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic14.png",
+            "category": "recent"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic8.png",
+            "category": "latest"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic15.png",
+            "category": "latest"
+        },
+        {
+            "title": "Men Casual Shoe",
+            "price": "2000.99",
+            "image": "C:/Users/malik/Desktop/projekte/MM Seite 2/images/Shop/pic1.png",
+            "category": "latest"
+        }
+    ]
+}

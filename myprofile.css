@@ -1,0 +1,274 @@
+html{
+    height: 100%;
+    width:100%;
+  }
+  body {
+  
+      margin:0;
+      font-family: Helvetica, sans-serif;
+    
+      height:100%;
+      background-color: #ffffff; 
+    }
+  
+    p{
+      margin:0;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+      
+    }
+     footer{
+       height: 300px;
+       margin-top: 190px;
+       background-color: #1f8b4c;
+     }
+    /* header */
+    
+    .header {
+      background-color: #fff;
+      box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+      position: fixed;
+      border-radius: 0 10px 0 10px;
+      width: 100%;
+      z-index: 10;
+      
+   
+    }
+    
+    .header ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      overflow: hidden;
+      background-color: #fff;
+    }
+  
+    
+    
+    .header li a {
+      display: block;
+      padding: 20px 20px;
+      border-right: 1px solid #f4f4f4;
+      text-decoration: none;
+      
+    }
+    
+    .header li a:hover,
+    .header .menu-btn:hover {
+      background-color:#6e9277;
+      color:white;
+    }
+    
+    .header .logo {
+      display: block;
+      float: left;
+      font-size: 2em;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+    
+    /* menu */
+    
+    .header .menu {
+      clear: both;
+      max-height: 0;
+      transition: max-height .2s ease-out;
+    }
+    
+    /* menu icon */
+    
+    .header .menu-icon {
+      cursor: pointer;
+      float: right;
+      padding: 28px 20px;
+      position: relative;
+      user-select: none;
+    }
+    
+    .header .menu-icon .nav-icon {
+      background: #333;
+      display: block;
+      height: 2px;
+      position: relative;
+      transition: background .2s ease-out;
+      width: 18px;
+    }
+    
+    .header .menu-icon .nav-icon:before,
+    .header .menu-icon .nav-icon:after {
+      background: #333;
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      transition: all .2s ease-out;
+      width: 100%;
+    }
+    
+    .header .menu-icon .nav-icon:before {
+      top: 5px;
+    }
+    
+    .header .menu-icon .nav-icon:after {
+      top: -5px;
+    }
+    
+    /* menu btn */
+    
+    .header .menu-btn {
+      display: none;
+    }
+    
+    .header .menu-btn:checked ~ .menu {
+      max-height: 300px;                  /*///////// LÄNGE DES DROPDOWNS /////////// */
+    }
+    
+    .header .menu-btn:checked ~ .menu-icon .nav-icon {
+      background: transparent;
+    }
+    
+    .header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+      transform: rotate(-45deg);
+      top:0;
+    }
+    
+    .header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+      transform: rotate(45deg);
+      top:0;
+    }
+    
+    
+    /* 48em = 768px @ 16pt font */
+    
+    @media (min-width: 48em) {
+      .header li {
+        float: left;
+      }
+      .header li a {
+        padding: 20px 30px;
+      }
+      .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+      }
+      .header .menu-icon {
+        display: none;
+      }
+    } 
+  
+  /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+  
+
+  .login-div {
+    width:430px;
+    height: 600px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+    position: absolute;
+    top: 20%;
+    transition: translate(-50%, -50%);
+    left: 34%;
+  }
+  
+  .logoProfile {
+    background:url("src/img/MrezaMladih_klein_neu.PNG");
+    width:110px;
+    height: 110px;
+    border-radius: 50%;
+    border-color: #ecf0f3;
+    margin:0 auto;
+    box-shadow:
+    /* logo shadow */
+    0px 0px 2px #5f5f5f,
+    /* offset */
+    0px 0px 0px 5px #ecf0f3,
+    /*bottom right */
+    8px 8px 15px #a7aaaf,
+    /* top left */
+    -8px -8px 15px #ffffff
+    ;
+  }
+  .mmlogo{
+    height: 100px;
+    width:auto;
+    position: absolute;
+    left:165px;
+    top:66px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+  }
+  
+  .fields {
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+  }
+  .fields input {
+    border: none;
+    outline:none;
+    background: none;
+    font-size: 18px;
+    color: #72c488;
+    padding:20px 10px 20px 5px;
+  }
+  .username, .password {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    padding-left: 15px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+  }
+  
+  .fields svg {
+    height: 22px;
+    margin:0 10px -3px 25px;
+  }
+  
+  .signin-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #72c488;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  }
+  .signin-button:hover {
+    background:#a4df8f;
+  }
+  .signin-button:active {
+    background:#72c488;
+  }
+  .link {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .link a {
+    text-decoration: none;
+    color:#aaa;
+    font-size: 15px;
+  }

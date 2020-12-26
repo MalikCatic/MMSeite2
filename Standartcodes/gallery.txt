@@ -1,0 +1,88 @@
+.drop-zone::before{
+    width: 100%;
+    height: 14rem;
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+    color: #000;
+    position: relative;
+    border-radius: 10px;
+    
+  }
+  .drop-zone::after {
+    width: 100%;
+    height: 14rem;
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    border-radius: 10px;
+    
+  }
+  
+  .drop-zone--over {
+    border-style: solid;
+  }
+  
+  
+  .drop-zone__input {
+    display: none;
+  }
+  
+  .drop-zone__thumb {
+    width: auto;
+    height: 14rem;
+    
+    overflow: hidden;
+    background-color: transparent;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .drop-zone__thumb::after {
+    content: none;             /*zum anzeigen des Daten-namens: attr(data-label)*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .gridGallery {
+    position: relative;
+    
+    top: 100px;
+  }
+  .itemGallery {
+    display: block;
+    position: absolute;
+    width: 14rem;
+    height: 14rem;
+    margin: 1em;
+    z-index: 1;
+    text-align: center;
+    line-height: 150px;
+    border: 2px solid grey;
+  }
+  .itemGallery.muuri-item-dragging {
+    z-index: 3;
+  }
+  .itemGallery.muuri-item-releasing {
+    z-index: 2;
+  }
+  .itemGallery.muuri-item-hidden {
+    z-index: 0;
+  }
+  .item-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    text-align: center;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  

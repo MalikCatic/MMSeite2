@@ -1,0 +1,184 @@
+
+.registerdiv{
+  position: relative;
+  top: 130px;
+  left: 20%;
+  height: auto;
+  width: 60%;
+  background-color: white;
+  border-radius: 25px 0 25px 0;
+  box-shadow: 10px 10px 20px 5px #6E6E6E;
+  
+}
+
+.registerlogo{
+   position: relative;
+   height: 60px;
+   width: auto;
+   left: 21%;
+}
+
+.wrapperREG{
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  margin: 20px auto;
+  padding: 30px;
+  margin-bottom:30px;
+}
+
+.headlineREG{
+  font-size: 30px;
+  font-weight: 700;
+  top:20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wrapperREG .formREG{
+  width: 100%;
+}
+
+.wrapperREG .formREG .inputfieldREG{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapperREG .formREG .inputfieldREG label{
+   width: 200px;
+   color: #757575;
+   margin-right: 10px;
+  font-size: 14px;
+}
+
+.wrapperREG .formREG .inputfieldREG .inputREG,
+.wrapperREG .formREG .inputfieldREG .textarea{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.wrapperREG .formREG .inputfieldREG .textarea{
+  width: 100%;
+  height: 125px;
+  resize: none;
+}
+
+.wrapperREG .formREG .inputfieldREG .custom_selectREG{
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+.wrapperREG .formREG .inputfieldREG .custom_selectREG:before{
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border: 8px solid;
+  border-color: #d5dbd9 transparent transparent transparent;
+  pointer-events: none;
+}
+
+.wrapperREG .formREG .inputfieldREG .custom_selectREG select{
+  -webkit-appearance: none;
+  -moz-appearance:   none;
+  appearance:        none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 1px solid #d5dbd9;
+  border-radius: 3px;
+}
+
+
+.wrapperREG .formREG .inputfieldREG .inputREG:focus,
+.wrapperREG .formREG .inputfieldREG .textarea:focus,
+.wrapperREG .formREG .inputfieldREG .custom_selectREG select:focus{
+  border: 1px solid #2ecc71;
+}
+
+.wrapperREG .formREG .inputfieldREG p{
+   font-size: 14px;
+   color: #757575;
+}
+.wrapperREG .formREG .inputfieldREG .checkREG{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+.wrapperREG .formREG .inputfieldREG .checkREG input[type="checkbox"]{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.wrapperREG .formREG .inputfieldREG .checkREG .checkmarkREG{
+  width: 15px;
+  height: 15px;
+  border: 1px solid #2ecc71;
+  display: block;
+  position: relative;
+}
+.wrapperREG .formREG.inputfieldREG .checkREG .checkmarkREG:before{
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  width: 5px;
+  height: 2px;
+  border: 2px solid;
+  border-color: transparent transparent #fff #fff;
+  transform: rotate(-45deg);
+  display: none;
+}
+.wrapperREG .formREG .inputfieldREG .checkREG input[type="checkbox"]:checked ~ .checkmarkREG{
+  background: #2ecc71;
+}
+
+.wrapperREG .formREG .inputfieldREG .checkREG input[type="checkbox"]:checked ~ .checkmarkREG:before{
+  display: block;
+}
+
+.wrapperREG .formREG .inputfieldREG .btnREG{
+  width: 100%;
+   padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background:  #2ecc71;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.wrapperREG .formREG .inputfieldREG .btnREG:hover{
+  background: #6e9277;
+}
+
+.wrapperREG .formREG .inputfieldREG:last-child{
+  margin-bottom: 0;
+}
+
+@media (max-width:420px) {
+  .wrapperREG .formREG .inputfieldREG{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapperREG .formREG .inputfieldREG label{
+    margin-bottom: 5px;
+  }
+  .wrapperREG .formREG .inputfieldREG.terms{
+    flex-direction: row;
+  }
+}

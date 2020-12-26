@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Mreza Mladih</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul class="menu">
+
+            <li><a href="login2.html">Login</a></li>
+            <li><a href="Impressum.html">Impressum</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="Shop.html">Shop</a></li>
+        </ul>
+    </header>
+
+
+    <div class="containerY">
+        <span class="big-circle"></span>
+        <img src="images/shape.png" class="square" alt="" />
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title2">Let's get in touch</h3>
+                <p class="text">
+                    For any questions or cooments send us a message! We try to answer as soon as possible. This could
+                    take a little time.
+                </p>
+
+                <div class="info">
+                    <div class="information">
+                        <img src="images/placeholder.png" class="icon" alt="" />
+                        <p>Ahlener Straße 130, 59065 Hamm</p>
+                    </div>
+                    <div class="information">
+                        <img src="images/email.png" class="icon" alt="" />
+                        <p>mreza.mladih.dzemat.hamm@gmail.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="images/phone.png" class="icon" alt="" />
+                        <p>015156958985</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <p>Connect with us :</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+
+                <form action="index.html" autocomplete="off">
+                    <h3 class="title2">Contact us</h3>
+                    <div class="input-container">
+                        <input type="text" name="name" class="input" placeholder="Username" />
+                        <label for="Username" placeholder="Username"></label>
+
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" class="input" placeholder="Email" />
+                        <label for="Email"></label>
+
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input" placeholder="Phone" />
+                        <label for="Phone"></label>
+
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input" placeholder="Message"></textarea>
+                        <label for="Message"></label>
+
+                    </div>
+                    <input type="submit" value="Send" class="contactsend" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../main.js"></script>
+</body>
+
+</html>
